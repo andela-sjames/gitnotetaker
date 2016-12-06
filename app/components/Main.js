@@ -1,5 +1,4 @@
 import React from 'react';
-// import { RouterHandler } from 'react-router';
 
 const Main = React.createClass({
     render() {
