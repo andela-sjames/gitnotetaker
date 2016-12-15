@@ -58,7 +58,7 @@ class Profile extends Component {
 
                 <div className="col-md-4">
                     <Notes 
-                    username={this.props.params.username}
+                    username={username}
                     notes={this.state.notes}
                     addNote={(newNote) => this.handleAddNote(newNote)} />
                 </div>
